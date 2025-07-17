@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReplicaPagWeb</title>
+    <meta name="title" content="Practica Replica no Flexbox no Grid">
+    <meta name="Description" content="Pagina web creada para poder practicar todo CSS y HTML sin Flexbox o Grid">
+    <meta name="Author" content="Ivan Santiago Cortes Gutierrez">
+    <meta name="Keywords" content="CSS HTML"> 
+    <link rel="Stylesheet" href="EstilosHTML-CSSIntermedio.css"/>
+    <link rel="icon" href="calm.png"/>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__navegacion">
+            <img class="header__logo" src="LogoSecretariaEducacion.webp"/>
+            <ul class="header__navegacion-lista">
+                <li class="header__navegacion-elemento"><a target="_blank" rel="noreference" href="https://es.wikipedia.org/wiki/Bogot%C3%A1" class="header__navegacion-enlace">Nosotros</a></li>
+                <li class="header__navegacion-elemento"><a class="header__navegacion-enlace">Atencion al Ciudadano</a></li>
+                <li class="header__navegacion-elemento"><a class="header__navegacion-enlace">Centros Educativos</a></li>
+                <li class="header__navegacion-elemento"><a class="header__navegacion-enlace">Normatividad</a></li>
+                <li class="header__navegacion-elemento"><a class="header__navegacion-enlace">Notificaciones</a></li>
+                <li class="header__navegacion-elemento"><a class="header__navegacion-enlace">Recursos Informaticos</a></li>
+            </ul>
+        </nav>
+        <img class="header__imagen-encabezado" src="HeaderImagen.jpg" alt="Imagen-encabezado"/>
+        <button class="header__boton" type="submit">Leer mas</button><br>
+        <input class="header__barra-busqueda" type="text" placeholder="Buscar">
+        <h2 class="header__subtitulo">LINKS DE INTERES</h2>
+        <section class="header__caminos">
+            <h3 class="header__caminos-indices">Desprendible de Pago</h3>
+            <h3 class="header__caminos-indices">Certificado de Aportes</h3>
+            <h3 class="header__caminos-indices">Ministerio de Educacion</h3>
+            <h3 class="header__caminos-indices">Icfes</h3>
+            <h3 class="header__caminos-indices">Inscripciones en linea de grado Transicion</h3>
+            <h3 class="header__caminos-indices">Icetex</h3>
+            <h3 class="header__caminos-indices">Atencion Ciudadano</h3>
+            <h3 class="header__caminos-indices">Aprender Digital</h3>
+            <h3 class="header__caminos-indices">PQRSF - P.A.E.</h3>
+            <h3 class="header__caminos-indices">Guia tramintes Cesantias Pension</h3>
+            <h3 class="header__caminos-indices">Sistema Maestro</h3>
+            <h3 class="header__caminos-indices">Legalizaciones</h3>
+            <h3 class="header__caminos-indices">Sistema Maestro2</h3>
+            <h3 class="header__caminos-indices">Legalizaciones2</h3>
+        </section>
+        <!--<section class="header__caminos">
+            <div class="pela">
+                <div class="pelaito">1</div>
+                <div class="pelaito">2</div>
+                <div class="pelaito">3</div>
+                <div class="pelaito">4</div>
+                <div class="pelaito">5</div>
+                <div class="pelaito">6</div>
+                <div class="pelaito">7</div>
+            </div>
+            <!-->
+        </section>
+    </header>
+    <div class="layout-principal">
+        <aside class="sidebar">
+            <h2 class="sidebar__titulo"><span>NUESTRAS OFICINAS</span></h2> 
+            <nav class="sidebar__navegacion">
+                <ul class="sidebar__navegacion-lista">
+                    <li class="sidebar__navegacion-elemento"><a class="sidebar__navegacion-enlace">OFICINA PRINCIPAL</a></li>
+                    <li class="sidebar__navegacion-elemento"><a class="sidebar__navegacion-enlace">BIBLIOTECA</a></li>
+                    <li class="sidebar__navegacion-elemento"><a class="sidebar__navegacion-enlace">SALONES CULTURALES</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="contenido-principal">
+            <!--ACA DEBO UTILIZAR BLOQUES, FLEX Y GRID-->
+            <h1 class="contenido-principal__titulo">CONTENIDO PRINCIPAL</h1>
+            <video autoplay loop muted class="contenido-principal__video" src="Efecto de video - Código Programación - DX-Studio (1080p, h264).mp4"></video>
+        </main>
+        <aside class="media-sidebar">
+            <h2 class="media-sidebar__titulo">AUDIOS PARA TI</h2>
+            <p class="media-sidebar__parrafo" >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quos, obcaecati error pariatur neque dolores quia? 
+            Quasi magnam doloribus id voluptas reiciendis 
+            facere sapiente velit amet similique illo! Placeat,  
+            repellat quisquam.
+            </p>
+        </aside>     
+    </div>
+    <footer class="footer">
+        <div class="footer__seccion-izquierda">
+            <img class="footer__imagen" src="FooterImage.webp" alt="Imagen del footer">
+            <h3 class="footer__titulo">HORARIO ATENCION AL PUBLICO</h3>
+            <p class="footer__parrafo">LUNES A VIERNES DE 8 A.M. A 12 Y DE 2 P.M A 5 P.M</p>
+            <h3 class="footer__titulo">DIRECCION</h3>
+            <p class="footer__parrafo">Calle 5 No. 11 - 21 - Facatativá - Colombia</p>
+            <P class="footer__parrafo">Celular: 318 8044195</p>
+            <h3 class="footer__titulo">Mail: atencionalciudadano@sedfacatativa.gov.co</h3>
+            <br><br>
+            <p class="footer__parrafo">sac@sedfacatativa.gov.co</p>
+            <a class="footer__enlace">CORREO INSTITUCIONAL</a>
+            <a class="footer__enlace">ADMINISTRADOR</a>
+            <p class="footer__parrafo">@Copywrite IVAN CORTES 2025</p>
+        </div>
+        <div class="footer__seccion-centro">
+            <h3 class="footer__titulo">NOTICIAS RECIENTES</h3>
+            <p class="footer__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quos, obcaecati error pariatur neque dolores quia? 
+                Quasi magnam doloribus id voluptas reiciendis 
+                facere sapiente velit amet similique illo! Placeat, 
+                repellat quisquam.
+            </p>
+        </div>
+        <div class="footer__seccion-derecha">
+            <h3 class="footer__titulo">SIGUENOS</h3>
+            <a class="footer__enlace" target="_blank" rel="noreference" href="https://www.facebook.com/sedfacatativa/">FACEBOOK</a>
+            <a class="footer__enlace" target="_blank" rel="noreference" href="https://www.facebook.com/sedfacatativa/">TWITEER</a>
+            <a class="footer__enlace" target="_blank" rel="noreference" href="https://www.facebook.com/sedfacatativa/">YOUTUBE</a>
+        </div>
+    </footer>
+</body>
+</html>
