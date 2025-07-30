@@ -88,6 +88,10 @@ a:visited{
     z-index: 20;
 }
 
+.header__boton-click{
+    background-color: rgb(46, 46, 192);
+}
+
 .header__boton:hover{
     background-color: transparent;
     color: rgb(214, 27, 27);

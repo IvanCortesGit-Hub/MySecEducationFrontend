@@ -12,6 +12,7 @@
     <link rel="icon" href="calm.png"/>
 </head>
 <body>
+    <script src="JavaScript.js"></script>
     <header class="header">
         <nav class="header__navegacion">
             <img class="header__logo" src="LogoSecretariaEducacion.webp"/>
@@ -44,18 +45,6 @@
             <h3 class="header__caminos-indices">Sistema Maestro2</h3>
             <h3 class="header__caminos-indices">Legalizaciones2</h3>
         </section>
-        <!--<section class="header__caminos">
-            <div class="pela">
-                <div class="pelaito">1</div>
-                <div class="pelaito">2</div>
-                <div class="pelaito">3</div>
-                <div class="pelaito">4</div>
-                <div class="pelaito">5</div>
-                <div class="pelaito">6</div>
-                <div class="pelaito">7</div>
-            </div>
-            <!-->
-        </section>
     </header>
     <div class="layout-principal">
         <aside class="sidebar">
@@ -71,7 +60,7 @@
         <main class="contenido-principal">
             <!--ACA DEBO UTILIZAR BLOQUES, FLEX Y GRID-->
             <h1 class="contenido-principal__titulo">CONTENIDO PRINCIPAL</h1>
-            <video autoplay loop muted class="contenido-principal__video" src="Efecto de video - Código Programación - DX-Studio (1080p, h264).mp4"></video>
+            <video autoplay loop muted class="contenido-principal__video" src="Efecto de video - Código Programación - DX-Studio (1080p, h264).mp4" hidden></video>
         </main>
         <aside class="media-sidebar">
             <h2 class="media-sidebar__titulo">AUDIOS PARA TI</h2>
@@ -112,6 +101,9 @@
             <a class="footer__enlace" target="_blank" rel="noreference" href="https://www.facebook.com/sedfacatativa/">FACEBOOK</a>
             <a class="footer__enlace" target="_blank" rel="noreference" href="https://www.facebook.com/sedfacatativa/">TWITEER</a>
             <a class="footer__enlace" target="_blank" rel="noreference" href="https://www.facebook.com/sedfacatativa/">YOUTUBE</a>
+            <br>
+            <input type="text" id="input" placeholder="Escribe algo"/>
+            <button id="botonRandom" type="submit">ENVIAR</button>
         </div>
     </footer>
 </body>
